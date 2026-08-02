@@ -1,0 +1,27 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-tw'
+title = 'Kuo With Yu'
+theme = "beautifulhugo"
+
+# 這裡可以設定主題專屬的參數
+[params]
+  subtitle = "掌握生活的每一個當下" # 網站副標題
+  dateFormat = "2006年01月02日" # 讓日期顯示為中文格式
+[params.author]
+  name = "Kuo With Yu"
+
+# 設定上方導覽列選單
+[[menu.main]]
+  name = "首頁"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "關於我們"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "生活紀錄"
+  url = "/chronicles/"  # 未來可以幫文章上標籤自動分類
+  weight = 3   
